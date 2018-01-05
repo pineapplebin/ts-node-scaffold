@@ -1,0 +1,21 @@
+{
+  "name": "ts-node-scaffold",
+  "version": "1.0.0",
+  "description": "typescript scaffold for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/**/*.ts",
+    "build-ts": "tsc",
+    "start": "npm run build-ts && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.0.10",
+    "@types/mocha": "^2.2.46",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  }
+}
