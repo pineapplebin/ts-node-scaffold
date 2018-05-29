@@ -1,2 +1,3 @@
 # ts-node-scaffold
-typescript scaffold for node
+
+TypeScript项目脚手架，默认输出到node环境
