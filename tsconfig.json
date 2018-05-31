@@ -15,6 +15,7 @@
     "baseUrl": ".",
     "paths": {},
     "lib": [
+      "dom",
       "es5",
       "es6"
     ]
